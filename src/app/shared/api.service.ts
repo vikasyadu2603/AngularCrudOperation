@@ -9,13 +9,13 @@ export class ApiService {
 
   constructor(private http : HttpClient) { }
   postEmploye(data :any){
-    return this.http.post<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/posts", data)
+    return this.http.post<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/posts/", data)
     .pipe(map((res:any)=>{
       return res;
     }))
   }
   getEmploye(){
-    return this.http.get<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/posts")
+    return this.http.get<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/posts/")
     .pipe(map((res:any)=>{
       return res;
     }))
