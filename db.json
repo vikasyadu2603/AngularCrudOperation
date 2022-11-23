@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstname": "vikas",
+      "lastname": "yadu",
+      "email": "vikasyadu2603@gmail.com",
+      "mobile": "8223079476",
+      "salary": "60000"
+    },
+    {
+      "id": 3,
+      "firstname": "ram",
+      "lastname": "sharma",
+      "email": "sharma@gmail.com",
+      "mobile": "7676768999",
+      "salary": "488488"
+    },
+    {
+      "id": 4,
+      "firstname": "harsh",
+      "lastname": "sen",
+      "email": "harishsen0609@gmail.com",
+      "mobile": "8319308575",
+      "salary": "5000"
+    },
+    {
+      "id": 5,
+      "firstname": "ishan",
+      "lastname": "yadu",
+      "email": "ishan@gmail.com",
+      "mobile": "9617604806",
+      "salary": "50000"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
