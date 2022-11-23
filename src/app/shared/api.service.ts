@@ -9,26 +9,26 @@ export class ApiService {
 
   constructor(private http : HttpClient) { }
   postEmploye(data :any){
-    return this.http.post<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json", data)
+    return this.http.post<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/posts", data)
     .pipe(map((res:any)=>{
       return res;
     }))
   }
   getEmploye(){
-    return this.http.get<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json")
+    return this.http.get<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/posts")
     .pipe(map((res:any)=>{
       return res;
     }))
   }
   deleteEmploye(id :number){
-    return this.http.delete<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/"+id)
+    return this.http.delete<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/posts/"+id)
     .pipe(map((res:any)=>{
       return res;
      
     }))
   }
   updateEmploye(data :any ,id: number){
-    return this.http.put<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/"+id , data)
+    return this.http.put<any>("https://github.com/vikasyadu2603/AngularCrudOperation/blob/master/db.json/posts/"+id , data)
     .pipe(map((res:any)=>{
       return res;
     }))
